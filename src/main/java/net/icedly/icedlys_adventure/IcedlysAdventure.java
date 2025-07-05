@@ -1,5 +1,8 @@
 package net.icedly.icedlys_adventure;
 
+import net.icedly.icedlys_adventure.block.ModBlocks;
+import net.icedly.icedlys_adventure.item.ModCreativeModeTabs;
+import net.icedly.icedlys_adventure.item.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -41,6 +44,12 @@ public class IcedlysAdventure {
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
 
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+
         // Register our mod's ModConfigSpec so that FML can create and load the config file for us
         modContainer.registerConfig(ModConfig.Type.COMMON, Config.SPEC);
     }
@@ -60,8 +69,9 @@ public class IcedlysAdventure {
 
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.URANIUM);
+            event.accept(ModItems.RAW_URANIUM);
         }
     }
 
