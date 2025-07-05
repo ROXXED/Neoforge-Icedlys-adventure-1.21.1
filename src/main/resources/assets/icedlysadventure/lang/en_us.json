@@ -1,6 +1,9 @@
 {
   "item.icedlysadventure.uranium": "Uranium",
   "item.icedlysadventure.raw_uranium": "Raw Uranium",
+  "item.icedlysadventure.chainsaw": "Chainsaw",
+  "item.icedlysadventure.tomato": "Tomato",
+  "item.icedlysadventure.frostfire_ice": "Frostfire Ice",
 
   "block.icedlysadventure.uranium_block": "Block Of Uranium",
   "block.icedlysadventure.uranium_ore": "Uranium Ore",

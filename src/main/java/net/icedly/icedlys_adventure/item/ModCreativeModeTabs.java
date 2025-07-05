@@ -25,6 +25,12 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.URANIUM);
                         pOutput.accept(ModItems.RAW_URANIUM);
+                        pOutput.accept(ModItems.FROSTFIRE_ICE);
+
+
+                        pOutput.accept(ModItems.TOMATO);
+
+                        pOutput.accept(ModItems.CHAINSAW);
 
 
 
