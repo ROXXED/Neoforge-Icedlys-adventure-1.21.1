@@ -24,13 +24,16 @@ public class ModCreativeModeTabs {
                     .icon(() -> new ItemStack(ModItems.URANIUM.get()))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModItems.URANIUM);
+                        pOutput.accept(ModItems.RUBY);
+                        pOutput.accept(ModItems.RAW_RUBY);
                         pOutput.accept(ModItems.RAW_URANIUM);
                         pOutput.accept(ModItems.FROSTFIRE_ICE);
 
-
                         pOutput.accept(ModItems.TOMATO);
+                        pOutput.accept(ModItems.TOMATO_SEEDS);
 
                         pOutput.accept(ModItems.CHAINSAW);
+
 
 
 
@@ -41,8 +44,11 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(IcedlysAdventure.MOD_ID, "icedlys_adventure_items_tab"))
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(ModBlocks.URANIUM_BLOCK);
+                        pOutput.accept(ModBlocks.RUBY_BLOCK);
+                        pOutput.accept(ModBlocks.RUBY_ORE);
                         pOutput.accept(ModBlocks.URANIUM_ORE);
                         pOutput.accept(ModBlocks.URANIUM_DEEPSLATE_ORE);
+                        pOutput.accept(ModBlocks.PETUNIA);
 
 
                     }).build());

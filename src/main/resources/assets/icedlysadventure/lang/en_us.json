@@ -1,13 +1,21 @@
 {
   "item.icedlysadventure.uranium": "Uranium",
+  "item.icedlysadventure.ruby": "Ruby",
+  "item.icedlysadventure.raw_ruby": "Raw Ruby",
   "item.icedlysadventure.raw_uranium": "Raw Uranium",
   "item.icedlysadventure.chainsaw": "Chainsaw",
   "item.icedlysadventure.tomato": "Tomato",
+  "item.icedlysadventure.tomato_seeds": "Tomato Seeds",
   "item.icedlysadventure.frostfire_ice": "Frostfire Ice",
 
   "block.icedlysadventure.uranium_block": "Block Of Uranium",
+  "block.icedlysadventure.ruby_block": "Block Of Ruby",
   "block.icedlysadventure.uranium_ore": "Uranium Ore",
+  "block.icedlysadventure.ruby_ore": "Ruby Ore",
   "block.icedlysadventure.uranium_deepslate_ore": "Deepslate Uranium Ore",
+  "block.icedlysadventure.tomato_crop": "Tomato Crop",
+  "block.icedlysadventure.petunia": "Petunia",
+  "block.icedlysadventure.potted_petunia": "Potted Petunia",
 
   "itemGroup.icedlysadventure.icedlys_adventure_items_tab": "Icedly's Adventure Items",
   "itemGroup.icedlysadventure.icedlys_adventure_blocks_tab": "Icedly's Adventure Blocks"
